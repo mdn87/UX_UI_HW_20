@@ -368,13 +368,14 @@ h6 {
 #hero::before {
   content: "";
   position: absolute;
-  right: -100%;
+  right: -20%;
   top: 20%;
-  width: 250%;
+  width: 150%;
   height: 200%;
   z-index: -1;
-  background-color: #e8ecf5;
-  transform: skewY(135deg);
+  background-color: #FFEEDC;
+  transform: skewY(119deg);
+
 }
 
 #hero h1 {
