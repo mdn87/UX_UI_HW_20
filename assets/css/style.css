@@ -32,12 +32,36 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/*--------------------------------------------------------------
+# CaseStudy Specific
+--------------------------------------------------------------*/
 .quote {
   text-align: center;
 }
 .quote h1 {
-  font-size: 36px;
+  font-size: 48px;
 }
+.rc-border {
+  border: 5px solid #faaf5e;
+  border-radius: 50px;
+  padding: 25px;
+}
+blockquote {
+  font-size: 48px;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  z-index: -99;
+  float: none;
 
 /*--------------------------------------------------------------
 # Back to top button
